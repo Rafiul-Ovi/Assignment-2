@@ -12,7 +12,55 @@
   height: 700px;
 }
 
+/* button style */
+
+.nav_btn {
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px;
+}
+.nav_btn_primary {
+  background-color: rgba(230, 83, 60, 1);
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.banner_btn_primary {
+  color: #ffffff;
+  background-color: rgba(230, 83, 60, 1);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 1rem;
+}
+.banner_btn_secondary {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.514);
+  border: 1px solid rgb(162, 155, 155);
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 1rem;
+}
+.section_btn_primary {
+  color: #ffffff;
+  background-color: rgba(230, 83, 60, 1);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 40px;
+  font-size: 1rem;
+}
+.bmi_section_btn {
+  color: #ffffff;
+  background-color: rgba(230, 83, 60, 1);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 40px;
+  font-size: 1rem;
+}
+
 /* nav style */
+
 .nav_container {
   display: flex;
   justify-content: space-between;
@@ -33,20 +81,9 @@
   padding-right: 20px;
   font-weight: 400;
 }
-.nav_btn {
-  color: #ffffff;
-  font-size: 1rem;
-  padding: 10px;
-}
-.nav_btn_primary {
-  background-color: rgba(230, 83, 60, 1);
-  border-radius: 25px;
-  padding: 10px 20px;
-  color: #ffffff;
-  font-size: 1rem;
-}
 
 /* banner style */
+
 .banner {
   max-width: 1240px;
   margin: 0 auto;
@@ -72,22 +109,6 @@
   margin-top: 20px;
   margin-bottom: 15px;
 }
-.banner_btn_primary {
-  color: #ffffff;
-  background-color: rgba(230, 83, 60, 1);
-  border: none;
-  border-radius: 20px;
-  padding: 10px 25px;
-  font-size: 1rem;
-}
-.banner_btn_secondary {
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.514);
-  border: 1px solid rgb(162, 155, 155);
-  border-radius: 20px;
-  padding: 10px 25px;
-  font-size: 1rem;
-}
 .banner_image {
   display: block;
 }
@@ -97,7 +118,6 @@
   border-radius: 10px;
   width: 200px;
   height: 95px;
-  /* margin-left: -20px; */
 }
 .banner_image_btn_2 {
   background-color: transparent;
@@ -105,10 +125,10 @@
   border-radius: 10px;
   width: 200px;
   height: 95px;
-  /* margin-top: -120px; */
 }
 
 /* section-1 style */
+
 .section_1 {
   background-color: black;
 }
@@ -152,6 +172,7 @@
 }
 
 /* section-2 style */
+
 .section_2 {
   background-color: black;
   padding-top: 100px;
@@ -182,14 +203,6 @@
   font-size: 0.85rem;
   margin-bottom: 20px;
 }
-.section_btn_primary {
-  color: #ffffff;
-  background-color: rgba(230, 83, 60, 1);
-  border: none;
-  border-radius: 20px;
-  padding: 10px 40px;
-  font-size: 1rem;
-}
 .section_blur_image {
   padding: 30px;
 }
@@ -199,7 +212,115 @@
   border-radius: 10px;
 }
 
+/* bmi-section style */
+
+.bmi_section {
+  background-color: black;
+}
+.bmi_heading {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bmi_heading > h3 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.bmi_heading > p {
+  color: rgba(255, 255, 255, 0.595);
+}
+.bmi_calculator_section {
+  background-color: rgba(34, 34, 34, 1);
+}
+.bmi_calculator {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 300px; */
+}
+.bmi_chart h5 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.bmi_chart table,
+th,
+td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+.bmi_chart {
+  margin-bottom: 100px;
+}
+.bmi_chart th {
+  color: #ffffff;
+  font-size: 0.8rem;
+  padding: 10px 30px 10px 30px;
+}
+.bmi_chart td {
+  color: rgba(255, 255, 255, 0.595);
+  font-size: 0.8rem;
+  padding: 10px 30px 10px 30px;
+}
+.bmi_form h5 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.bmi_form p {
+  color: rgba(255, 255, 255, 0.595);
+  font-size: 0.8rem;
+  margin-bottom: 30px;
+}
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.form > input {
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: rgba(128, 128, 128, 0.697);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.form > .select_1 {
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 310px;
+  padding-left: 10px;
+  background-color: rgba(128, 128, 128, 0.697);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.select_2 {
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 630px;
+  padding-left: 10px;
+  background-color: rgba(128, 128, 128, 0.697);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.activity {
+  margin-bottom: 30px;
+}
+
 /* section-3 style */
+
 .section_3 {
   background-color: black;
   padding-top: 100px;
@@ -306,6 +427,7 @@
 }
 
 /* footer-section style */
+
 .footer_section {
   background-color: rgba(34, 34, 34, 1);
 }
