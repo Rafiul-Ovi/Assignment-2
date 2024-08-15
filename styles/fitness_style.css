@@ -324,7 +324,7 @@ td {
 .section_3 {
   background-color: black;
   padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 .team_container {
   text-align: center;
@@ -424,6 +424,118 @@ td {
   position: absolute;
   bottom: 15px;
   left: 15px;
+}
+
+/* section-4 style */
+
+.section_4 {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.gym_container {
+  text-align: center;
+}
+.gym_container h3 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.gym_container p {
+  color: rgba(255, 255, 255, 0.595);
+}
+.gym_image_container {
+  max-width: 1240px;
+  margin: 50px auto 0px;
+  background-color: rgba(34, 34, 34, 1);
+  border: none;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px 10px 10px 15px;
+}
+.gym_images-1 {
+  background-image: url(../images/Equipment_1.png);
+  width: 400px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gym_images-2 {
+  background-image: url(../images/Equipment_2.jpg);
+  width: 400px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gym_images-3 {
+  background-image: url(../images/Equipment_3.webp);
+  width: 400px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gym_images-4 {
+  background-image: url(../images/Equipment_4.webp);
+  width: 400px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gym_images-5 {
+  background-image: url(../images/Equipment_5.webp);
+  width: 400px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gym_images-6 {
+  background-image: url(../images/Equipment_6.webp);
+  width: 400px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gym_images-7 {
+  background-image: url(../images/Equipment_7.webp);
+  width: 400px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gym_images-8 {
+  background-image: url(../images/Equipment_8.jpg);
+  width: 400px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gym_images-9 {
+  background-image: url(../images/Equipment_9.jpg);
+  width: 400px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* footer-section style */
