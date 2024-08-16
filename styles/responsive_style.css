@@ -1,5 +1,71 @@
 @media screen and (max-width: 576px) {
+  /* nav-container */
+
+  .nav_container {
+    max-width: 576px;
+    margin: 0 auto;
+  }
+  .nav_left {
+    padding: 20px 0px 20px 15px;
+  }
+  .nav_right_1 {
+    visibility: hidden;
+  }
+
+  /* banner */
+  .banner_container {
+    height: 1100px;
+  }
+  .banner {
+    flex-direction: column;
+    max-width: 576px;
+    margin: 0 auto;
+  }
+  .banner_text {
+    padding: 30px 10px 0px 15px;
+    text-align: left;
+  }
+  .banner_text p {
+    width: 80%;
+    padding: 10px 0px 10px 0px;
+  }
+  .banner_image {
+    background-position: center;
+  }
+
+  /* section-1 */
+
+  .habit_section_heading {
+    padding: 20px 30px 10px 30px;
+  }
+  .habit_section_image {
+    flex-direction: column;
+  }
+  .habits {
+    padding-bottom: 20px;
+  }
+
   /* section-2 */
+
+  .section_2 {
+    padding: 30px 15px 30px 15px;
+  }
+  .section_blur {
+    max-width: 576px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .section_blur_description {
+    padding: 20px 30px 10px 20px;
+  }
+  .section_blur_image {
+    padding: 20px 30px 20px 20px;
+    width: 340px;
+  }
+  .section_blur_image img {
+    width: 100%;
+    background-position: center;
+  }
 
   /* bmi_section */
 
@@ -21,15 +87,15 @@
   }
   .form > input {
     height: 40px;
-    width: 220px;
+    width: 177px;
   }
   .form > .select_1 {
     height: 40px;
-    width: 230px;
+    width: 187px;
   }
   .select_2 {
     height: 40px;
-    width: 469px;
+    width: 385px;
   }
 
   /* section-3 */
@@ -51,7 +117,8 @@
   .trainer_image_container_4,
   .trainer_image_container_5,
   .trainer_image_container_6 {
-    width: 100%;
+    width: 80%;
+    background-position: center;
   }
 
   /* section-4 */
@@ -76,7 +143,8 @@
   .gym_images-7,
   .gym_images-8,
   .gym_images-9 {
-    width: 100%;
+    width: 80%;
+    background-position: center;
   }
 
   /* footer */

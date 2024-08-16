@@ -76,7 +76,7 @@
   font-size: 2rem;
   font-weight: 800;
 }
-.nav_right {
+.nav_right_1 {
   display: flex;
   border: 0.01px solid rgba(128, 128, 128, 0.749);
   border-radius: 25px;
@@ -84,7 +84,6 @@
   padding-right: 40px;
   font-weight: 400;
 }
-
 /* banner style */
 
 .banner {
