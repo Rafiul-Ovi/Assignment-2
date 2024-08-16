@@ -221,7 +221,7 @@
   margin-bottom: 15px;
 }
 .section_blur_description p {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.595);
   font-size: 0.85rem;
   margin-bottom: 20px;
 }
