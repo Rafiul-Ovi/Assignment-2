@@ -1,4 +1,84 @@
 @media screen and (max-width: 576px) {
+  /* section-2 */
+
+  /* bmi_section */
+
+  .bmi_section {
+    padding: 0px 15px 20px 15px;
+  }
+
+  /* bmi_calculator_section */
+
+  .bmi_calculator_section {
+    padding-bottom: 30px;
+  }
+  .bmi_calculator {
+    padding: 0px 15px 0px 15px;
+    flex-direction: column;
+  }
+  .bmi_chart {
+    margin-bottom: 15px;
+  }
+  .form > input {
+    height: 40px;
+    width: 220px;
+  }
+  .form > .select_1 {
+    height: 40px;
+    width: 230px;
+  }
+  .select_2 {
+    height: 40px;
+    width: 469px;
+  }
+
+  /* section-3 */
+
+  .section_3 {
+    padding: 30px 15px 30px 15px;
+  }
+  .team_container {
+    margin-bottom: 20px;
+  }
+  .team_member {
+    max-width: 576px;
+    margin: 0 auto;
+    grid-template-columns: 439px;
+  }
+  .trainer_image_container_1,
+  .trainer_image_container_2,
+  .trainer_image_container_3,
+  .trainer_image_container_4,
+  .trainer_image_container_5,
+  .trainer_image_container_6 {
+    width: 100%;
+  }
+
+  /* section-4 */
+
+  .section_4 {
+    padding: 0px 15px 30px 15px;
+  }
+  .gym_container {
+    margin-bottom: 20px;
+  }
+  .gym_image_container {
+    max-width: 576px;
+    margin: 0 auto;
+    grid-template-columns: 439px;
+  }
+  .gym_images-1,
+  .gym_images-2,
+  .gym_images-3,
+  .gym_images-4,
+  .gym_images-5,
+  .gym_images-6,
+  .gym_images-7,
+  .gym_images-8,
+  .gym_images-9 {
+    width: 100%;
+  }
+
   /* footer */
 
   .footer_section {
