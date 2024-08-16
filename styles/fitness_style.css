@@ -18,7 +18,7 @@
 .nav_btn_primary {
   background-color: rgba(230, 83, 60, 1);
   border-radius: 25px;
-  padding: 10px 20px;
+  padding: 10px 40px;
   color: #ffffff;
   font-size: 1rem;
 }
@@ -58,7 +58,7 @@
 /* banner_container style */
 
 .banner_container {
-  background-image: linear-gradient(#111111, #2c2a2a89, #111111);
+  background-image: linear-gradient(#111111, #222020e0, #111111);
   height: 700px;
 }
 
@@ -80,8 +80,8 @@
   display: flex;
   border: 0.01px solid rgba(128, 128, 128, 0.749);
   border-radius: 25px;
-  gap: 20px;
-  padding-right: 20px;
+  gap: 50px;
+  padding-right: 40px;
   font-weight: 400;
 }
 
@@ -114,39 +114,57 @@
   margin-bottom: 15px;
 }
 .banner_image {
-  width: 70%;
-  border: 1px solid red;
-  display: flex;
-  /* position: relative; */
+  width: 50%;
+  height: 600px;
+  /* border: 1px solid red; */
+  background-image: url(../images/Images\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .badge_div {
   border: 1px solid black;
   width: 33%;
 }
 .badge_1 {
-  background-color: transparent;
-  border: 1px solid gray;
+  background-color: rgba(29, 28, 28, 0.501);
   border-radius: 10px;
-  width: 200px;
+  border: none;
+  width: 190px;
   height: 95px;
-  margin-top: 380px;
-  margin-left: 150px;
-  filter: blur(2px);
+  margin-top: 150px;
+  margin-left: 20px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.circle {
+  background-color: rgba(230, 83, 60, 1);
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
 }
 .badge_1_text_1 {
   color: rgba(250, 250, 249, 1);
   font-size: 1.5rem;
   font-weight: 600;
 }
+.badge_2_text_1 {
+  color: rgba(250, 250, 249, 1);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
 .badge_1_text_2 {
   color: rgba(239, 237, 232, 0.6);
 }
 .badge_2 {
-  background-color: transparent;
-  border: 1px solid gray;
+  background-color: rgba(29, 28, 28, 0.501);
   border-radius: 10px;
-  width: 200px;
+  border: none;
+  width: 190px;
   height: 95px;
+  margin-left: 400px;
+  margin-top: 150px;
 }
 
 /* section-1 style */
